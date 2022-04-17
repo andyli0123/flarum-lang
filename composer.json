@@ -1,6 +1,6 @@
 {
   "name": "andyli0123/flarum-lang",
-  "description": "Chinese",
+  "description": "Traditional Chinese pack for Flarum.",
   "keywords": [
     "flarum",
     "locale",
@@ -13,7 +13,7 @@
   "license": "MIT",
   "authors": [
     {
-      "name": "Andy",
+      "name": "Andy Li",
       "email": "andyli0123boy@gmail.com",
       "homepage": "https://github.com/andyli0123"
     }
@@ -37,11 +37,8 @@
         "backgroundPosition": "center"
       }
     },
-    "flagrow": {
-      "discuss": "https://github.com/andyli0123/flarum-lang"
-    },
     "flarum-locale": {
-      "code": "zh-Hans",
+      "code": "zh-TW",
       "title": "繁體中文"
     }
   }

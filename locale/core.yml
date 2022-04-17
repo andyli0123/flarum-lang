@@ -143,7 +143,7 @@ core:
       email_title: '=> core.admin.email.description'
       permissions_button: '=> core.admin.permissions.title'
       permissions_title: '=> core.admin.permissions.description'
-      search_placeholder: 搜索
+      search_placeholder: 搜尋
       userlist_button: '=> core.admin.users.title'
       userlist_title: '=> core.admin.users.description'
     permissions:
@@ -282,7 +282,7 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 主題下拉菜單開關
     discussion_list:
-      empty_text: 這里空空如也...
+      empty_text: 尚無文章
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 標記為已讀
       replied_text: '{username} 回覆於 {ago}'
@@ -321,11 +321,11 @@ core:
       toggle_sidenav_dropdown_accessible_label: 導航欄下拉菜單開關
     index_sort:
       latest_button: 最新回覆
-      newest_button: 新鮮出爐
-      oldest_button: 陳年舊貼
+      newest_button: 最新文章
+      oldest_button: 最舊文章
       relevance_button: 相關推薦
       toggle_dropdown_accessible_label: 更改「全部主題」排序
-      top_button: 熱門主題
+      top_button: 熱門文章
     log_in:
       forgot_password_link: 忘記密碼？
       invalid_login_message: 登錄信息有誤
@@ -477,7 +477,7 @@ core:
     username:
       deleted_text: '[已注銷]'
   ref:
-    all_discussions: 全部主題
+    all_discussions: 全部看板
     change_email: 更改郵箱
     change_password: 更改密碼
     color: 顏色
@@ -490,17 +490,17 @@ core:
     custom_header_title: 編輯自定義頁眉
     delete: 刪除
     delete_forever: 永久刪除
-    discussions: 主題
+    discussions: 看板
     edit: 編輯
     edit_user: 編輯用戶
-    email: 郵箱
+    email: 電子郵件地址
     extensions: 擴展程序
     icon: 圖標
     icon_text: '輸入任意一個 <a>Font Awesome</a> 圖標名稱。<em>包括</em>前綴，例如 <code>fas fa-</code>'
     load_more: 加載更多
-    loading: 正在加載…
-    log_in: 登錄
-    log_out: 退出
+    loading: 載入中…
+    log_in: 登入
+    log_out: 登出
     mark_all_as_read: 將所有帖子標記為已讀
     next_page: 下一頁
     notifications: 通知中心
@@ -513,11 +513,11 @@ core:
     reply: 回覆
     reset_your_password: 重置密碼
     restore: 還原
-    save_changes: 保存
-    settings: 設置
-    sign_up: 注冊
+    save_changes: 儲存
+    settings: 設定
+    sign_up: 註冊
     some_others: '{count, plural, one {# 人} other {# 人}}'
-    start_a_discussion: 發布主題
+    start_a_discussion: 發表文章
     username: 用戶名
     users: 用戶
     view: 查看
