@@ -308,7 +308,7 @@ core:
       search_placeholder: 搜索
       search_role_label: 搜索論壇
       session_dropdown_accessible_label: 會話下拉菜單開關
-      settings_button: 設置
+      settings_button: 設定
       sign_up_link: '=> core.ref.sign_up'
     index:
       all_discussions_link: '=> core.ref.all_discussions'
