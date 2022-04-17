@@ -298,7 +298,7 @@ core:
       text: 請輸入賬戶的注冊郵箱地址，我們將發送重設密碼鏈接至該郵箱。
       title: 忘記密碼
     header:
-      admin_button: 後台管理
+      admin_button: 管理員控制台
       back_to_index_tooltip: 返回主題列表
       locale_dropdown_accessible_label: 更改論壇語言
       log_in_link: '=> core.ref.log_in'
