@@ -313,7 +313,7 @@ core:
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 發文功能已關閉
-      mark_all_as_read_confirmation: 確定要將所有文章設為已讀嗎？
+      mark_all_as_read_confirmation: 確定要將所有文章標示為已讀嗎？
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: 重新載入
@@ -370,17 +370,17 @@ core:
       submit_button: '=> core.ref.rename'
       title: 更改看板標題
     search:
-      all_discussions_button: '搜尋“{query}”'
+      all_discussions_button: '搜尋「{query}」'
       discussions_heading: '=> core.ref.discussions'
       users_heading: '=> core.ref.users'
     settings:
-      account_heading: 帳戶設定
+      account_heading: 帳號設定
       change_email_button: '=> core.ref.change_email'
       change_password_button: '=> core.ref.change_password'
       notifications_heading: '=> core.ref.notifications'
       notify_by_email_heading: '=> core.ref.email'
       notify_by_web_heading: 通知
-      notify_discussion_renamed_label: 我的看板標題被更改
+      notify_discussion_renamed_label: 我的文章標題被更正
       privacy_disclose_online_label: 公開我的在線狀態
       privacy_heading: 隱私設定
       title: '=> core.ref.settings'
@@ -503,7 +503,7 @@ core:
     log_out: 登出
     mark_all_as_read: 將所有文章標記為已讀
     next_page: 下一頁
-    notifications: 通知中心
+    notifications: 通知
     okay: 確定
     password: 密碼
     posts: 回覆
