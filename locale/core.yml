@@ -477,7 +477,7 @@ core:
     username:
       deleted_text: '[已刪除]'
   ref:
-    all_discussions: 全部看板
+    all_discussions: 所有看板
     change_email: 更改電子郵件地址
     change_password: 更改密碼
     color: 顏色

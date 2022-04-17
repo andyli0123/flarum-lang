@@ -46,14 +46,14 @@ flarum-tags:
       meta_description_text: 全部看板
       meta_title_text: '=> flarum-tags.ref.tags'
     choose_tags:
-      bypass_requirements: 跳過看板選擇
-      choose_primary_placeholder: '{count, plural, one {選擇主看板    } other {最多選擇 # 個主看板}}'
+      bypass_requirements: 略過
+      choose_primary_placeholder: '{count, plural, one {選擇主題    } other {最多選擇 # 個主看板}}'
       choose_secondary_placeholder: '{count, plural, one {選擇一個次看板} other {最多選擇 # 個次看板}}'
       edit_title: '更改「{title}」的節點看板'
       submit_button: '=> core.ref.okay'
-      title: 添加看板
+      title: 選擇主題
     composer_discussion:
-      choose_tags_link: 添加看板
+      choose_tags_link: 選擇主題
     discussion_controls:
       edit_tags_button: 編輯看板
     header:
