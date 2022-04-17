@@ -39,13 +39,13 @@ core:
       show_language_selector_label: 顯示語言選擇器
       slug_driver_heading: '固定鏈接驅動：{model}'
       slug_driver_text: '選擇當前模態的 URL 驅動。'
-      title: 常規
+      title: 一般
       welcome_banner_heading: 歡迎橫幅
       welcome_banner_text: 橫幅文本將顯示於「全部主題」頁面頂部，可以用於歡迎論壇訪客。
     dashboard:
-      clear_cache_button: 清除緩存
+      clear_cache_button: 清除快取
       description: 論壇各項數據一覽
-      title: 儀表盤
+      title: 控制台
       tools_button: 工具
     edit_css:
       customize_text: '添加 Less/CSS 代碼以自定義論壇外觀，此設置將覆蓋 Flarum <a>默認樣式</a>。'
@@ -255,7 +255,7 @@ core:
     composer_discussion:
       body_placeholder: 說點什麽吧...
       discard_confirmation: 主題尚未發布，確定要丟棄嗎？
-      submit_button: 發布
+      submit_button: 發佈
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 標題
     composer_edit:
@@ -305,7 +305,7 @@ core:
       log_out_button: '=> core.ref.log_out'
       profile_button: 個人主頁
       search_clear_button_accessible_label: 清空搜索
-      search_placeholder: 搜索
+      search_placeholder: 搜尋
       search_role_label: 搜索論壇
       session_dropdown_accessible_label: 會話下拉菜單開關
       settings_button: 設定
@@ -313,7 +313,7 @@ core:
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 發帖功能已關閉
-      mark_all_as_read_confirmation: 確定要標記所有帖子為已讀嗎？
+      mark_all_as_read_confirmation: 確定要將所有文章設為已讀嗎？
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: 刷新
@@ -321,7 +321,7 @@ core:
       toggle_sidenav_dropdown_accessible_label: 導航欄下拉菜單開關
     index_sort:
       latest_button: 最新回覆
-      newest_button: 最新文章
+      newest_button: 最新動態
       oldest_button: 最舊文章
       relevance_button: 相關推薦
       toggle_dropdown_accessible_label: 更改「全部主題」排序
@@ -330,11 +330,11 @@ core:
       forgot_password_link: 忘記密碼？
       invalid_login_message: 登錄信息有誤
       password_placeholder: '=> core.ref.password'
-      remember_me_label: 記住我的登錄狀態
-      sign_up_text: '還沒有帳戶？ <a>立即注冊</a>'
+      remember_me_label: 記住我的登入狀態
+      sign_up_text: '沒有帳號嗎？<a>註冊</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
-      username_or_email_placeholder: 用戶名或郵箱
+      username_or_email_placeholder: 用戶名稱或電子郵件地址
     notifications:
       discussion_renamed_text: '{username} 更改了標題'
       empty_text: 沒有新通知
@@ -387,7 +387,7 @@ core:
     sign_up:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      log_in_text: '已有帳戶？ <a>登錄</a>'
+      log_in_text: '已經有帳號嗎？<a>登入</a>'
       password_placeholder: '=> core.ref.password'
       submit_button: '=> core.ref.sign_up'
       title: '=> core.ref.sign_up'
@@ -399,8 +399,8 @@ core:
       avatar_upload_tooltip: 上傳新頭像
       discussions_link: '=> core.ref.discussions'
       in_discussion_text: '於 {discussion}'
-      joined_date_text: '注冊於 {ago}'
-      online_text: 在線
+      joined_date_text: '註冊於 {ago}'
+      online_text: 目前在線上
       posts_empty_text: 暫無內容
       posts_link: '=> core.ref.posts'
       posts_load_more_button: '=> core.ref.load_more'
@@ -518,10 +518,10 @@ core:
     sign_up: 註冊
     some_others: '{count, plural, one {# 人} other {# 人}}'
     start_a_discussion: 發表文章
-    username: 用戶名
+    username: 用戶名稱
     users: 用戶
     view: 查看
-    write_a_reply: 說點什麽吧...
+    write_a_reply: 在想些什麼？
     you: 你
   views:
     admin:
