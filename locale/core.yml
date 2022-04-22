@@ -268,7 +268,7 @@ core:
       body_placeholder: '=> core.ref.write_a_reply'
       discard_confirmation: 回覆尚未發佈，確定要丟棄嗎？
       posted_message: 回覆成功。
-      submit_button: 回覆
+      submit_button: 留言
       view_button: '=> core.ref.view'
     discussion_controls:
       cannot_reply_button: 回覆已關閉
@@ -285,8 +285,8 @@ core:
       empty_text: 尚無文章
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 標記為已讀
-      replied_text: '{username}．回覆於{ago}'
-      started_text: '{username}．發佈於{ago}'
+      replied_text: '{username}．回覆於 {ago}'
+      started_text: '{username}．發佈於 {ago}'
       total_replies_a11y_label: '{count, plural, one {# 條回覆} other {# 條回覆}}'
       unread_replies_a11y_label: '{count, plural, one {# 條未讀} other {# 條未讀}}，全部標記為已讀。'
     forgot_password:
@@ -506,7 +506,7 @@ core:
     notifications: 通知
     okay: 確定
     password: 密碼
-    posts: 回覆
+    posts: 留言
     previous_page: 上一頁
     remove: 移除
     rename: 重新命名
