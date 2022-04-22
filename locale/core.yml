@@ -330,7 +330,7 @@ core:
       forgot_password_link: 忘記密碼？
       invalid_login_message: 登入信息有誤
       password_placeholder: '=> core.ref.password'
-      remember_me_label: 記住我的登入狀態
+      remember_me_label: 記住我
       sign_up_text: '沒有帳號嗎？<a>註冊</a>'
       submit_button: '=> core.ref.log_in'
       title: '=> core.ref.log_in'
@@ -490,7 +490,7 @@ core:
     custom_header_title: 編輯自定義頁眉
     delete: 刪除
     delete_forever: 永久刪除
-    discussions: 看板
+    discussions: 文章
     edit: 編輯
     edit_user: 編輯用戶
     email: 電子郵件地址
@@ -517,7 +517,7 @@ core:
     settings: 設定
     sign_up: 註冊
     some_others: '{count, plural, one {# 人} other {# 人}}'
-    start_a_discussion: 建立文章
+    start_a_discussion: 發文
     username: 用戶名稱
     users: 用戶
     view: 查看
