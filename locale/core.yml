@@ -95,7 +95,7 @@ core:
       title: '=> core.ref.email'
     extension:
       configure_scopes: 設定範圍
-      confirm_purge: '重置操作會清除數據庫中所有該擴展相關的記錄和資源。如要卸載擴展，請通過 Composer 操作。確定要重置擴展嗎？'
+      confirm_purge: '重設操作會清除數據庫中所有該擴展相關的記錄和資源。如要卸載擴展，請通過 Composer 操作。確定要重設擴展嗎？'
       confirm_uninstall: 此擴展的的數據庫條目和文件資源都將被永久性刪除，確定要繼續嗎？
       disabled: 關閉
       enable_to_see: 開啟擴展程式以查看或修改設定。
@@ -111,7 +111,7 @@ core:
       no_settings: 此擴展無設定項。
       open_modal: 打開設定
       permissions_title: 權限
-      purge_button: 重置
+      purge_button: 重設
       readme:
         button_label: 自述文件
         no_readme: 此擴展未提供自述文件
@@ -229,7 +229,7 @@ core:
       body: "{username}，您好!\n\n您更改了 {forum} 的帳號電子郵件地址。\n\n若是您本人所為，請點擊下方連結確認更改：\n{url}\n\n若非您本人操作，請忽略這封郵件。\n"
       subject: 確認電子郵件地址地址
     reset_password:
-      body: "{username}，您好！\n\n您請求重置 {forum} 的密碼。\n\n若是您本人所為，請點擊下方連結重置密碼：\n{url}\n\n如非您本人操作，請忽略這封郵件，我們不會受理重置操作。\n"
+      body: "{username}，您好！\n\n您請求重設 {forum} 的密碼。\n\n若是您本人所為，請點擊下方連結重設密碼：\n{url}\n\n如非您本人操作，請忽略這封郵件，我們不會受理重設操作。\n"
       subject: '=> core.ref.reset_your_password'
     send_test:
       body: "{username}，您好！\n\n這是一個測試郵件，用於測試您的電子郵件地址設定是否正確。\n\n若是您本人發送了測試郵件，那麽恭喜，這意味著您的設定有效！\n\n若非您本人發送測試郵件，請忽略此內容。\n"
@@ -243,8 +243,8 @@ core:
       submit_button: '=> core.ref.save_changes'
       title: '=> core.ref.change_email'
     change_password:
-      send_button: 發送重置密碼郵件
-      text: 點擊按鈕發送重置連結到您的電子郵件地址以重置密碼。
+      send_button: 發送重設密碼郵件
+      text: 點擊按鈕發送重設連結到您的電子郵件地址以重設密碼。
       title: '=> core.ref.change_password'
     composer:
       close_tooltip: 關閉
@@ -255,7 +255,7 @@ core:
     composer_discussion:
       body_placeholder: 說點什麽吧...
       discard_confirmation: 看板尚未發佈，確定要丟棄嗎？
-      submit_button: 發佈
+      submit_button: 發佈文章
       title: '=> core.ref.start_a_discussion'
       title_placeholder: 標題
     composer_edit:
@@ -285,17 +285,17 @@ core:
       empty_text: 尚無文章
       load_more_button: '=> core.ref.load_more'
       mark_as_read_tooltip: 標記為已讀
-      replied_text: '{username} 回覆於 {ago}'
-      started_text: '{username} 發佈於 {ago}'
+      replied_text: '{username}．回覆於{ago}'
+      started_text: '{username}．發佈於{ago}'
       total_replies_a11y_label: '{count, plural, one {# 條回覆} other {# 條回覆}}'
       unread_replies_a11y_label: '{count, plural, one {# 條未讀} other {# 條未讀}}，全部標記為已讀。'
     forgot_password:
       dismiss_button: '=> core.ref.okay'
       email_placeholder: '=> core.ref.email'
-      email_sent_message: 我們已經將重置密碼的連結發送到該電子郵件地址，若未收到請檢查垃圾箱。
+      email_sent_message: 我們已經將重設密碼的連結發送到該電子郵件地址，若未收到請檢查垃圾箱。
       not_found_message: 此電子郵件地址的註冊用戶不存在
-      submit_button: 重置密碼
-      text: 請輸入賬戶的註冊電子郵件地址地址，我們將發送重設密碼連結至該電子郵件地址。
+      submit_button: 重設密碼
+      text: 請輸入您的電子郵件地址，我們將發送密碼重設連結。
       title: 忘記密碼
     header:
       admin_button: 管理員控制台
@@ -313,7 +313,7 @@ core:
     index:
       all_discussions_link: '=> core.ref.all_discussions'
       cannot_start_discussion_button: 發文功能已關閉
-      mark_all_as_read_confirmation: 確定要將所有文章標示為已讀嗎？
+      mark_all_as_read_confirmation: 將所有文章標示為已讀？
       mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
       meta_title_text: '=> core.ref.all_discussions'
       refresh_tooltip: 重新載入
@@ -323,12 +323,12 @@ core:
       latest_button: 最新動態
       newest_button: 最新文章
       oldest_button: 最舊文章
-      relevance_button: 相關推薦
+      relevance_button: 搜尋結果
       toggle_dropdown_accessible_label: 更改「全部看板」排序
       top_button: 熱門文章
     log_in:
       forgot_password_link: 忘記密碼？
-      invalid_login_message: 登入信息有誤
+      invalid_login_message: 帳號或密碼錯誤！
       password_placeholder: '=> core.ref.password'
       remember_me_label: 記住我
       sign_up_text: '沒有帳號嗎？<a>註冊</a>'
@@ -356,10 +356,10 @@ core:
       restore_button: '=> core.ref.restore'
       toggle_dropdown_accessible_label: 文章下拉選單開關
     post_scrubber:
-      now_link: 最新回覆
-      original_post_link: 最早內容
+      now_link: 最新留言
+      original_post_link: 最早留言
       unread_text: '{count} 條未讀'
-      viewing_text: '{count, plural, one {{index} / {formattedCount} 條} other {{index} / {formattedCount} 條}}'
+      viewing_text: '{count, plural, one {第 {index}/{formattedCount} 則留言} other {{index} / {formattedCount} 條}}'
     post_stream:
       discussion_renamed_old_tooltip: '原標題：「{old}」'
       discussion_renamed_text: '{username} 將標題更改為 「{new}」。'
@@ -451,7 +451,7 @@ core:
       username_label: '=> core.ref.username'
     error:
       dependent_extensions_message: '無法停用「{extension}」，請先停用依賴擴展「{extensions}」'
-      generic_message: 糟糕，出錯啦！請重新載入頁面重試。
+      generic_message: 發生錯誤，請重新載入此頁面。
       missing_dependencies_message: '無法啟用「{extension}」，請先啟用依賴擴展「{extensions}」'
       not_found_message: 您請求的資源不存在。
       payload_too_large_message: 請求負載過大。
@@ -510,8 +510,8 @@ core:
     previous_page: 上一頁
     remove: 移除
     rename: 重新命名
-    reply: 回覆
-    reset_your_password: 重置密碼
+    reply: 留言
+    reset_your_password: 發送
     restore: 還原
     save_changes: 儲存
     settings: 設定
